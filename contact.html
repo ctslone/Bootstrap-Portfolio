@@ -14,7 +14,7 @@
     </head>
 <body>
         <nav class="p-3 mb-2 bg-info fixed-top navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">Charlie Slone</a>
+                <a class="navbar-brand" href="index.html">Charlie Slone</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -31,67 +31,34 @@
 
     <section class="contents clearfix">
         <!-- contact elements -->
-        <!-- place contact bs form here -->
-        
-
-
         <div class="contact col-10">
             <h2 class="contact-title">Contact</h2>
             <hr>
             <div class="container col-12">
                     <form>
                             <div class="form-group">
+                              <label for="exampleFormControlInput1">Name</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your name...">
+                            </div>
+
+                            <div class="form-group">
                               <label for="exampleFormControlInput1">Email address</label>
                               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                             </div>
+                            
                             <div class="form-group">
-                              <label for="exampleFormControlSelect1">Example select</label>
-                              <select class="form-control" id="exampleFormControlSelect1">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleFormControlSelect2">Example multiple select</label>
-                              <select multiple class="form-control" id="exampleFormControlSelect2">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleFormControlTextarea1">Example textarea</label>
+                              <label for="exampleFormControlTextarea1">Comment</label>
                               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                              <br>
+
+                              <button type="button" class="btn btn-outline-info">Submit</button>
                             </div>
-                          </form>
-
-
-
-
-
-
-                <!-- <label for="yourname">Name</label>
-                <input type="text" id="yourname" name="firstname" placeholder="Your name...">
-
-                <label for="email">Email</label>
-                <input type="text" id="email" name="youremail" placeholder="Email...">
-
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Write something..."></textarea>
-
-                <input id="submit-button" type="submit" value="Submit"> -->
-
-                  
-                      
+                          </form>        
             </div>
 
         </div>
-    </section> <!-- added clearfix to this section with class=clearfix -->
+    </section>
 
     <!-- Footer -->
 
