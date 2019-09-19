@@ -1,19 +1,16 @@
 /* ------------------------------Header and Nav Bar ----------------------------------*/
 
-
-
 html {
     height: 100%;
 }
 
-li {
+/* li {
     list-style-type: none;
     display: inline;
-    float: right;
-     
-}
+    float: right; 
+} */
 
-li a {
+/* li a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     display: block;
     background: #ffffff;
@@ -21,18 +18,18 @@ li a {
     padding: 5px;
     text-decoration: none;
     margin-top: 5px;   
-}
+} */
 
-li a:hover:not(.active) {
+/* li a:hover:not(.active) {
     background-color: whitesmoke;
-}
+} */
 
-.nav-links{
+/* .nav-links{
     position: absolute;
     left: 67.5%;  
-}
+} */
 
-.header {
+/* .header {
     background: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: fixed;
@@ -45,7 +42,7 @@ li a:hover:not(.active) {
     min-width: 1000px;
     width: 100%;
     
-}
+} */
 .my-name {
     position: absolute;
     top: 0;
@@ -62,9 +59,7 @@ li a:hover:not(.active) {
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    background-image: url(../images/folk-pattern-black.png) ; 
-    flex-direction: column;
-
+    background-image: url(../images/folk-pattern-black.png) ;
 }
 
 .contents {
@@ -93,7 +88,8 @@ body {
 .about-title {
     color: #25A2B8;
     text-align: left;
-    padding-top: 10px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #bio-image {
@@ -101,20 +97,22 @@ body {
     padding-right: 15px;
 }
 
-/* This clearfix does not appear to do antyhing for the problem of the footer covering the bio div. However, adding bottom margin to bio div fixes the problem...? Not sure why clearfix does not work 
-.clearfix::after {
-    content: "";
-    display: both;
-    clear: both;
-} */
+.navbar-brand { 
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-size: 24px !important;
+ }
 
-
+ .navbar {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-size: 16px !important;
+ }
 
 /* ------------------------------------ Portfolio Page ------------------------------ */
 .portfolio-title {
     color: #25A2B8;
     text-align: left;
-    padding-top: 10px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .portfolio {
     background: #d3d3d3;
@@ -131,7 +129,7 @@ body {
     margin-bottom: 85px;
 }
 
-.top-row {
+/* .top-row {
     padding-top: 40px;
     overflow: hidden;
 
@@ -149,37 +147,38 @@ body {
     padding-top: 20px;
     margin-bottom: 40px;
     overflow: hidden;
-}
+} */
 
 .hangman-pic {
-    /* padding-right: 20px; */
+    margin-top: 20px;
    
 }
 
 .rpg-pic {
-    /* padding-left: 20px; */
+    margin-top: 20px;
 
 }
 
 .trivia-pic {
-    padding-top: 20px;  
+    margin-top: 20px;  
 }
 
 .widget-pic {
-    padding-top: 20px;  
+    margin-top: 20px; 
 }
 
 .rock-pic {
-    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffff ;
 }
 
 a:hover {
-    color: #666666;
+    color: #D3D3D3 !important;
 }
 
 .caption-text {
@@ -195,9 +194,7 @@ a:hover {
 
 /* positioning the text over image/div */
 
-
-
-.hangman-div {
+/* .hangman-div {
     float: left;
 }
 
@@ -211,13 +208,13 @@ a:hover {
 
 .widget-div {
     float: left;
-}
+} */
 
-.hangman-container {
+/* .hangman-container {
     position: relative;
     width: 300px;
     height: 300px;
-  }
+  } */
   
 .hangman-caption {
     text-align: center;
@@ -229,11 +226,11 @@ a:hover {
     margin-right: 20px; 
   }
 
-.rpg-container {
+/* .rpg-container {
     position: relative;
     width: 300px;
     height: 300px;
-  }
+  } */
   
 .rpg-caption {
     text-align: center;
@@ -244,11 +241,11 @@ a:hover {
     width: 300px;
   }
 
-.trivia-container {
+/* .trivia-container {
     position: relative;
     width: 300px;
     height: 300px;
-  }
+  } */
   
 .trivia-caption {
     text-align: center;
@@ -259,11 +256,11 @@ a:hover {
     width: 300px;
   }
 
-.widget-container {
+/* .widget-container {
     position: relative;
     width: 300px;
     height: 300px;
-  }
+  } */
   
 .widget-caption {
     text-align: center;
@@ -274,11 +271,11 @@ a:hover {
     width: 300px;
   }
 
-.rock-container {
+/* .rock-container {
     position: relative;
     width: 300px;
     height: 300px;
-  }
+  } */
   
 .rock-caption {
     text-align: center;
@@ -288,13 +285,15 @@ a:hover {
     color: #ffffff;
     width: 300px;
     margin-left:0 auto; 
+    margin-bottom: 20px;
   }
 
   /* -------------------------------- Contact Page ---------------------------------- */
   .contact-title {
     color: #25A2B8;
     text-align: left;
-    padding-top: 10px;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
   .contact {
     background: #d3d3d3;
@@ -310,11 +309,11 @@ a:hover {
     margin-bottom: 85px;
   }
 
-  .container {
+  /* .container {
     padding-bottom: 20px;
-  }
+  } */
 
-  #yourname {
+  /* #yourname {
     box-sizing: border-box;
     width: 100%;
     height: 30px;
@@ -322,9 +321,9 @@ a:hover {
     margin-bottom: 10px;
     padding-left: 5px;
     font-size: 12px;
-  }
+  } */
 
-  #email {
+  /* #email {
     box-sizing: border-box;
     width: 100%;
     height: 30px;
@@ -332,9 +331,9 @@ a:hover {
     margin-bottom: 10px;
     padding-left: 5px;
     font-size: 12px; 
-  }
+  } */
 
-  #message {
+  /* #message {
     box-sizing: border-box;
     width: 100%;
     height: 100px;
@@ -344,16 +343,16 @@ a:hover {
     padding-left: 5px;
     padding-top: 5px;
     font-size: 12px;
-  }
+  } */
 
-  #submit-button {
+  /* #submit-button {
       background: #4aaaa5;
       color: #ffffff;
       cursor: pointer;
       height: 40px;
       width: 80px;
       font-size: 16px;
-  }
+  } */
 
   #submit-button:hover {
       background-image: linear-gradient(to right, #666666, #4aaaa5);

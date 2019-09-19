@@ -14,12 +14,40 @@
     </head>
 <body>
     <!-- header with nav bar -->
-        <nav class="p-3 mb-2 bg-info fixed-top navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="index.html">Charlie Slone</a>
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-6">
+    <nav class="nav fixed-top p-2 mb-2 bg-info navbar-light">
+        <a class="nav-link active" href="#">Charlie Slone</a>
+      </nav>
+        </div>
+
+        <div class="col-1">
+      <ul class="nav justify-content-end fixed-top p-2 mb-2 navbar-light">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        </div>
+        </div>
+      </div> -->
+
+        <nav class="p-2 mb-2 bg-info fixed-top navbar navbar-expand-lg navbar-dark">
+                <a class="col-3 navbar-brand font-weight-bold" href="index.html">Charlie Slone</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                
+                <div class="col-9 justify-content-end collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="index.html">About</a>
                     <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
@@ -29,13 +57,32 @@
             </nav>
 
     <!-- main about content -->
-
-    <section class="contents ">
+    <div class="container">
+    <section class="row contents">
         <div class="bio col-10">
-            <h2 class="about-title">About Me</h2>
+            <h2 class="about-title font-weight-bold">About Me</h2>
             <hr>
+<div class="col-12">
+            <p class="p-bio"> <img class="" src="assets/images/headshot.jpg" width="200" height="200" alt="my-face" id="bio-image">
+              Hi my name is Charlie. I am a developer in training at the UNC Chapel Hill Coding Bootcamp. I recieved my Bachelor's Degree in Geology from NC State in 2016 but after working in the industry for a few years, I realized my passion was elsewhere. I decided to pursue software developoment as a career because I have always loved technology, solving problems and creating things!
+            </p>
 
-            <div class="card mb-3" style="max-width: 850px;">
+            <p class="p-bio">
+              People who know me well would describe me as someone who loves adventure. I have always enjoyed outdoor activities and exploring new places. In the spring and fall, I go camping, mountain biking, sport shooting, and hiking. In the winter time I try to spend as much time snow skiing as possible because winter is my favorite season. In the summer I find myself out on the lake, water skiing and knee-boarding.
+            </p>
+
+            <p class="p-bio">
+              I have two rescue pets that I love very much. My cat Ary, who is a Himalayan Mounatin Cat mix and my dog Ranger, who is a mix between a dachshund and miniature pinscher.
+            </p>
+
+            <p class="p-bio">
+              Since you have read this far, I suppose I will give a few cool facts about myself. I am a certified SCUBA diver and have dove in the Florida Keys! I have also driven a Formula 4 racecar around Virginia International Raceway!
+            </p>
+</div>
+
+      <!-- My customized bootstrap for use later -->
+
+            <!-- <div class="card mb-3" style="max-width: 850px;">
                     <div class="row no-gutters">
                       <div class="col-md-4">
                         <img src="assets/images/headshot.jpg" class="h-100 d-inline-block card-img" alt="headshot">
@@ -79,14 +126,18 @@
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </div> -->
         </div>
-    </section> <!-- added clearfix to this section with class=clearfix -->
+    </section>
+  </div>
 
     <!-- Footer -->
 
     <section>
         <footer>
+            <!-- <nav class="border-top border-info p-3 bg-secondary text-white d-flex justify-content-center navbar fixed-bottom navbar-light">
+                <h6>&copy; Copyright 2019 Charlie Slone</h6>
+              </nav> -->
             <div class="copyright"   id="all-footer">
                 &copy; Copyright 2019 Charlie Slone
             </div>
