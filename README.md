@@ -1,2 +1,5 @@
 # Bootstrap-Portfolio
-HW 2 - Portfolio w/ Bootstrap
+
+Beginning to learn bootstrap. NOT CURRENT.
+
+CURRENT PORTFOLIO [HERE](https://ctslone.github.io/Updated-Portfolio/)
